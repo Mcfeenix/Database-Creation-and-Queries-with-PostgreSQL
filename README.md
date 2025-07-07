@@ -87,27 +87,27 @@ INSERT INTO tool (toolid,toolname,serialno,inventoryqty,usearea,powersystem,
 
 ### Queries for Business Questions
 Once the database structure was created and populated with data, it was ready for querying. The hardware store wants answers to some business questions, so let's query the database with PostgreSQL!
-1. How many rental tools have a current status of “late”? What are the customers’ names and phone numbers for contacting them to remind them to return the tools?
+- How many rental tools have a current status of “late”? What are the customers’ names and phone numbers for contacting them to remind them to return the tools?
    
 ![Query 1](https://github.com/user-attachments/assets/312855e6-d217-4c80-af31-6d12a075b41c)
 
-2. The marketing department wants to know which three tools had the most sales in terms of quantity in January 2024 in order to prepare for advertisements for next January.
+- The marketing department wants to know which three tools had the most sales in terms of quantity in January 2024 in order to prepare for advertisements for next January.
    
 ![Query 2](https://github.com/user-attachments/assets/7a1c64fd-3a2d-44c1-a7ef-10c6980e80b9)
 
-3. Upon hearing that Supplier B may be going out of business, the store manager wants to determine which tools are provided by them so they can make arrangements to purchase those tools from a different supplier.
+- Upon hearing that Supplier B may be going out of business, the store manager wants to determine which tools are provided by them so they can make arrangements to purchase those tools from a different supplier.
 
 ![Query 3](https://github.com/user-attachments/assets/10eb5365-1ec7-4ff5-b288-1e5124b52a28)
 
-4. What is the total sales tax collected in the month of January 2024?
+- What is the total sales tax collected in the month of January 2024?
 
 ![Query 4](https://github.com/user-attachments/assets/f2af1b27-4774-483d-980e-29a10419c031)
 
-5. Who are the top 10 customers in sales for the year 2024?
+- Who are the top 10 customers in sales for the year 2024?
 
 ![Query 5](https://github.com/user-attachments/assets/29952785-6f0e-416e-8779-3055efceb038)
 
-6. The rental manager is considering purchasing more tools. Which 3 tools were rented the most in 2024?
+- The rental manager is considering purchasing more tools. Which 3 tools were rented the most in 2024?
 
 ![Query 6](https://github.com/user-attachments/assets/f46566c8-e640-446d-ac56-73dde86ec709)
 
